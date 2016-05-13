@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  固定宽高比的属性 -->
+    <declare-styleable name="FixedAspectRatioFrameLayout">
+        <attr name="orientation">
+            <enum name="fixWidth" value="0"/>
+            <enum name="fixHeight" value="1"/>
+        </attr>
+        <attr name="aspectRatio" format="float"/>
+    </declare-styleable>
+</resources>
